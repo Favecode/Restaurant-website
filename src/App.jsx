@@ -7,7 +7,6 @@ import OrderForm from "./components/OrderForm";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Cart from "./components/Cart";
-import "./styles.css";
 
 export default function App() {
   const [cart, setCart] = useState([]);
