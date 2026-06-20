@@ -24,10 +24,7 @@ export default function Footer({ setActiveSection }) {
           ))}
         </nav>
       </div>
-      <div className="footer-bottom">
-        <p className="footer-copy">© {year} Savoria Restaurant.</p>
-        <p className="footer-copy">Payments powered by Paystack.</p>
-      </div>
+    
     </footer>
   );
 }
